@@ -1,4 +1,4 @@
-Version 1.7.3 - 2012/06/26
+Version 1.7.3 - 2015/04/24
 
 - Fix DOSListParser AM PM in Chinese parse error bug.
 
