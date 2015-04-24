@@ -1,3 +1,7 @@
+Version 1.7.3 - 2012/06/26
+
+- Fix DOSListParser AM PM in Chinese parse error bug.
+
 Version 1.7.2 - 2012/06/26
 
 - A bug has been fixed in the download routine, handling the "502 Command
@@ -68,7 +72,7 @@ Version 1.5.1 - 2010/05/30
 - REST command support compatibility enhanced.
 - Blank lines coming from the server are now ignored.
 
-(Thanks to Aniceto Pérez)
+(Thanks to Aniceto Pï¿½rez)
 
 
 Version 1.5 - 2010/03/11
@@ -165,7 +169,7 @@ Version 1.2 - 2008/10/19
 - FTPClient.list(String fileSpec) method added.
 - SSLConnector added.
 
-(Thanks to Aniceto Pérez)
+(Thanks to Aniceto Pï¿½rez)
 
 
 Version 1.1.2 - 2008/10/05
@@ -173,7 +177,7 @@ Version 1.1.2 - 2008/10/05
 - NOOP commands automatically sent during file transfers.
 - Bugfix to better handle MAC style list responses.
   
-(Thanks to Aniceto Pérez and Ashika Umanga Umagiliya)
+(Thanks to Aniceto Pï¿½rez and Ashika Umanga Umagiliya)
 
 
 Version 1.1.1 - 2008/04/18
