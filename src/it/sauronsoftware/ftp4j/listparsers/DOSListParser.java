@@ -22,6 +22,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -41,7 +42,7 @@ public class DOSListParser implements FTPListParser {
 					+ "(<DIR>|\\d+)\\s+([^\\\\/*?\"<>|]+)$");
 
 	private static final DateFormat DATE_FORMAT = new SimpleDateFormat(
-			"MM/dd/yy hh:mm a");
+			"MM/dd/yy hh:mm a", Locale.ENGLISH);
 
 	public FTPFile[] parse(String[] lines) throws FTPListParseException {
 		int size = lines.length;
